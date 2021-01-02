@@ -1,0 +1,21 @@
+[
+    {
+        "id": 5,
+        "src": "/images/weather-dashboard.PNG",
+        "alt": "Weather dashboard displaying data for London",
+        "title": "Weather Dashboard",
+        "desc": "Making use of the Open Weather API, this application allows users to search any city in the world and be presented with weather data for the current day along with a 5 day forecast. This project served as an excellent way to practice retrieving data from APIs with AJAX and also afforded me the opportunity to work with the Spectre CSS framework.",
+        "deployed": "https://jjessee1371.github.io/weather-dashboard/",
+        "github": "https://github.com/JJessee1371/weather-dashboard"
+    },
+
+    {
+        "id": 6,
+        "src": "/images/note-taker.PNG",
+        "alt": "Notepad example screenshot",
+        "title": "Notepad",
+        "desc": "Everyone needs a way to keep track of the multitude of things to be done each day whether it relates to personal to-dos or taking notes in meetings at work. The notepad allows users to write out and store their daily tasks and remove them from the list once completed. This project served as an opportunity to practice working with multiple server routes to make a cohesive application and began to pave the way for delving into work with storing information in databases.",
+        "deployed": "https://peaceful-brook-94616.herokuapp.com/",
+        "github": "https://github.com/JJessee1371/Notepad"
+    }
+]

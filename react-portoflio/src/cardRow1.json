@@ -1,0 +1,21 @@
+[
+    {
+        "id": 1,
+        "src": "/images/Remember-them.png",
+        "alt": "Remember Them landing page",
+        "title": "Remember Them",
+        "desc": "Working with a team of 4 individuals, 2 of whom also served in the United States armed forces, we constructed this site as a place to pay tribute to the men and women who made the ultimate sacrifice for their country. My role in the team was primarily to work with JavaScript both on the front and back end to ensure our routes functioned properly and data was displayed as intended. This was an exciting project to work on and a unique opportunity to use many new technologies to construct something that represents the values I hold dearly.",
+        "deployed": "https://protected-forest-25007.herokuapp.com/",
+        "github": "https://github.com/JJessee1371/remember-them"
+    },
+
+    {
+        "id": 2,
+        "src": "/images/readme-generator.PNG",
+        "alt": "Generated README file",
+        "title": "README Generator",
+        "desc": "Developers everywhere know that a well thought out README file is a key part of every project that they create. The goal of this command line interface application was to enable developers to quickly generate a professional looking README file after answering some simple prompts. Making use of the Inquirer and Axios modules, the application uses the input to create a thorough README with directions for installation, testing, and contributing along with other key pieces of information.",
+        "deployed": "https://drive.google.com/file/d/1ukiiTXq5WZY4A8F8IdjZG3cV2tbuUMbf/view",
+        "github": "https://github.com/JJessee1371/README-Creator"
+    }
+]
