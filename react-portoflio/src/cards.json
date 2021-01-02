@@ -1,0 +1,65 @@
+[
+    {
+        "src": "/images/Remember-them.png",
+        "alt": "Remember Them landing page",
+        "title": "Remember Them",
+        "desc": "Working with a team of 4 individuals, 2 of whom also served in the United States armed
+        forces, we constructed this site as a place to pay tribute to the men and women who
+        made the ultimate sacrifice for their country. My role in the team was primarily to work with
+        JavaScript both on the front and back end to ensure our routes functioned properly 
+        and data was displayed as intended. This was an exciting project to work on and a 
+        unique opportunity to use many new technologies to construct something that represents
+        the values I hold dearly.",
+        "deployed": "https://protected-forest-25007.herokuapp.com/",
+        "github": "https://github.com/JJessee1371/remember-them"
+    },
+
+    {
+        "src": "/images/readme-generator.PNG",
+        "alt": "Generated README file",
+        "title": "README Generator",
+        "desc": "Developers everywhere know that a well thought out README file is a key part of
+        every project that they create. The goal of this command line interface application
+        was to enable developers to quickly generate a professional looking README file after
+        answering some simple prompts. Making use of the Inquirer and Axios modules, the 
+        application uses the input to create a thorough README with directions for installation,
+        testing, and contributing along with other key pieces of information.",
+        "deployed": "https://drive.google.com/file/d/1ukiiTXq5WZY4A8F8IdjZG3cV2tbuUMbf/view",
+        "github": "https://github.com/JJessee1371/README-Creator"
+    },
+
+    {
+        "src": "/images/employee-tracker.PNG",
+        "alt": "Business tracker application example display",
+        "title": "Business Tracker",
+        "desc": "This command line interface application was built with the difficulties of organizing
+        a business in mind. By means of the inquirer module, the business tracker allows users
+        to enter information about the departments, employees, managers, and employee roles
+        within their company. Responses are stored in a database and can then be readily retrieved
+        and viewed at their convenience. Initially I struggled integrating MySQL syntax into this
+        application, but persistence and practice showed me how impactful it can be when making
+        relations between data sets.",
+        "deployed": "https://drive.google.com/file/d/1Q8bZOeP3Oo494DBkEHeMl4JrsW4SurIn/view?usp=sharing",
+        "github": "https://github.com/JJessee1371/Employee-tracker"
+    },
+
+    {
+        "src": "/images/password-generator.PNG",
+        "alt": "Password generator landing page",
+        "title": "Password Generator",
+        "desc": "After collecting information from the user based on what character types should be included, this application
+        generates a completely random password. As my very first project built using JavaScript it was a challenge to 
+        bring together the concepts and methods that would be most useful for creating this tool. Returning to this
+        project after a few months to refactor the code was an eye opening experience proving that with time and practice
+        the same goal can be achieved through a wide variety of methods and with much less code that I had originally used.",
+        "deployed": "https://jjessee1371.github.io/password-generator/",
+        "github": "https://github.com/JJessee1371/password-generator"
+    },
+
+    {
+        "src": "/images/weather-dashboard.PNG",
+        "alt": "Weather dashboard displaying data for London",
+        "title": "Weather Dashboard",
+        "desc": ""
+    }
+]

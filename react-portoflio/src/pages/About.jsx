@@ -1,15 +1,21 @@
 import React from 'react';
+import Navbar from '../Components/Navbar';
 import BioContainer from '../Components/BioContainer';
 import Awards from '../Components/Awards';
-import SkillContainer from '../Components/Skill_Container';
+import SkillContainer from '../Components/SkillContainer';
+import Footer from '../Components/Footer';
 
 function About() {
     return (
-        <main className="container">
-            <BioContainer/>
-            <Awards/>
-            <SkillContainer/>
-        </main>
+        <div>
+            <Navbar/>
+            <main className="container">
+                <BioContainer/>
+                <Awards/>
+                <SkillContainer/>
+                <Footer/>
+            </main>
+        </div>
     );
 };
 

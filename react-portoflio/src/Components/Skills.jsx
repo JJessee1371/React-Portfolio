@@ -1,4 +1,6 @@
 import React from 'react';
+import 'materialize-css';
+import '../CSS/Skills.css';
 
 function Skills() {
     return (

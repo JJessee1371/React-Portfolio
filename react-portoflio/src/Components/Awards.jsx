@@ -1,4 +1,6 @@
 import React from 'react';
+import 'materialize-css';
+import '../CSS/Awards.css';
 
 function Awards() {
     return (

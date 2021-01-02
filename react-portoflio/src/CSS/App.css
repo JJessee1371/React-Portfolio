@@ -1,0 +1,26 @@
+body {
+    background-image: linear-gradient(#252b39, #3b455e, #404c68, #617197);
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #a13b44;
+}
+
+header {
+    background-color: #d2bf55;
+    text-align: center;
+    font-size: 1.6em;
+    margin: 20px 0;
+    padding: 10px;
+    font-family: 'Neucha', cursive;
+    letter-spacing: 0.3em;
+}
+
+.header-main {
+    padding-top: 0;
+}
+
+.header-text {
+    font-weight: bold;
+}

@@ -1,4 +1,5 @@
 import React from 'react';
+import '../CSS/AboutHeader.css';
 
 function AboutHeader() {
     return (

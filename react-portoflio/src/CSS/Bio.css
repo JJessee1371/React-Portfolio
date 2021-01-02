@@ -1,0 +1,13 @@
+.bio-text {
+    font-size: 16px;
+    text-align: justify;
+}
+
+.resume {
+    color: #923840;
+}
+  
+.resume:hover {
+    text-decoration: underline;
+    color: rgb(136, 10, 136);
+}
