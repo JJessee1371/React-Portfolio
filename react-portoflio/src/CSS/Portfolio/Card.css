@@ -1,0 +1,36 @@
+.card {
+    border-radius: 10px;
+    background-image: linear-gradient(#abacb1, #c6c7cc, #e0e1e6, #f2f4ff);
+    overflow: hidden;
+    padding: 10px;
+}
+
+.card .card-title {
+    font-weight: bold;
+}
+
+.card-title {
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.card-content > p {
+    font-size: 16px;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+    color: #2956c7;
+    transition: all .2s ease-in-out;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating):hover {
+    text-decoration: underline;
+    color: rgb(136, 10, 136);
+    transform: scale(1.1);
+}
+
+.card-action {
+    display: flex;
+    justify-content: space-around;
+}

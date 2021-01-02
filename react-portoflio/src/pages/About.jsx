@@ -13,8 +13,8 @@ function About() {
                 <BioContainer/>
                 <Awards/>
                 <SkillContainer/>
-                <Footer/>
             </main>
+            <Footer/>
         </div>
     );
 };

@@ -9,10 +9,11 @@ function Skills() {
             <ul id="hskills">
                 <li><i className="fab fa-html5"></i> HTML</li>
                 <li><i className="fab fa-css3-alt"></i> CSS</li>
-                <li><i className="fab fa-js-square"></i> JavaScript</li>
+                <li><i className="fab fa-js-square"></i> JavaScript/jQuery</li>
                 <li><i className="fab fa-node-js"></i> Node.js</li>
                 <li><i className="fas fa-database sql"></i> MySQL</li>
                 <li><i className="fas fa-database mongo"></i> MongoDB</li>
+                <li><i class="fab fa-react"></i> React</li>
                 <li><i className="fab fa-microsoft"></i> Microsoft Office</li>
             </ul>
         </div>

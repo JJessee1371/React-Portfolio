@@ -8,7 +8,7 @@ function Awards() {
             <div className="col s12 m12 l12 xl12">
                 <h3 className="center">Honors & Awards</h3>
                 <ul id="awards">
-                    <li>AP Scholar with Distinction - 2014 - AP Board</li>
+                    <li>AP Scholar with Distinction - 2014 - Advanced Placement Board</li>
                     <li>Eagle Scout Award - 2014 - Boy Scouts of America</li>
                     <li>National Defense Ribbon - 2018 - United States Marine Corps</li>
                     <li>Global War on Terrorism Ribbon - 2019 - United States Marine Corps</li>
