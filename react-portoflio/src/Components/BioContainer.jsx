@@ -1,6 +1,6 @@
 import React from 'react';
 import 'materialize-css';
-import '../CSS/BioContainer.css';
+import '../CSS/Index/BioContainer.css';
 import AboutHeader from './AboutHeader';
 import AboutImg from './AboutImg';
 import Bio from './Bio';

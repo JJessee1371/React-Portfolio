@@ -1,6 +1,6 @@
 import React from 'react';
 import 'materialize-css';
-import '../CSS/AboutImg.css';
+import '../CSS/Index/AboutImg.css';
 
 function AboutImg() {
     return (

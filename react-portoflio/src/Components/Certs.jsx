@@ -1,5 +1,6 @@
 import React from 'react';
 import 'materialize-css';
+import '../CSS/Index/Certs.css';
 
 function Certs() {
     return (

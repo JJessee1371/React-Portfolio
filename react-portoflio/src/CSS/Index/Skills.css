@@ -31,12 +31,3 @@
 .mongo {
     color: green;
 }
-
-.certs {
-    color: #3f5faf;
-}
-
-.certs:hover {
-    text-decoration: underline;
-    color: rgb(136, 10, 136);
-}

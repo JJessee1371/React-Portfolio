@@ -1,6 +1,6 @@
 import React from 'react';
 import 'materialize-css';
-import '../CSS/Bio.css';
+import '../CSS/Index/Bio.css';
 
 function Bio() {
     return (
