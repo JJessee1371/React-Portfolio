@@ -10,7 +10,7 @@ technologies into my work.
 ![portfolio-new](https://user-images.githubusercontent.com/66571617/98486280-aa142980-21d9-11eb-8e71-53294f2fd311.PNG)
 
 ## Deployed Site
-
+https://jjessee1371.github.io/React-Portfolio/
 
 ## Technologies 
 * React.js
