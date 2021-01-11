@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from '../Components/Navbar';
+import GlobalNavbar from '../Components/GlobalNavbar';
 import { ContactHeader } from '../Components/GenericHeader';
 import ContactWrapper from '../Components/ContactWrapper';
 import Footer from '../Components/Footer';
@@ -7,7 +7,7 @@ import Footer from '../Components/Footer';
 function Contact() {
     return (
         <div>
-            <Navbar/>
+            <GlobalNavbar/>
             <div>
                 <ContactHeader/>
                 <ContactWrapper/>

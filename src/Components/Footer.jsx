@@ -4,7 +4,7 @@ import '../CSS/Global/Footer.css';
 
 function Footer() {
     return (
-        <footer className="page-footer">
+        <footer id="footer" className="page-footer">
             <nav>
                 <ul className="links">
                     <li className="grey-text text-lighten-3">

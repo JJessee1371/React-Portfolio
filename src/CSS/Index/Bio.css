@@ -11,3 +11,10 @@
     text-decoration: underline;
     color: rgb(136, 10, 136);
 }
+
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+    .bio-text {
+        font-size: 18px;
+        line-height: 1.6;
+    }
+}

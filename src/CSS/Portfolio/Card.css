@@ -1,4 +1,5 @@
 .card {
+    height: 941px;
     border-radius: 10px;
     background-image: linear-gradient(#abacb1, #c6c7cc, #e0e1e6, #f2f4ff);
     overflow: hidden;
@@ -12,6 +13,7 @@
 .card-title {
     display: block;
     text-align: center;
+    text-decoration: underline;
     margin-top: 5px;
 }
 
