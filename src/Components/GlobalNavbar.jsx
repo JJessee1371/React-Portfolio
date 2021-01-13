@@ -25,7 +25,7 @@ class GlobalNavbar extends React.Component {
                 }}
                 >
                 <NavItem>
-                    <Link to="/">Home</Link>
+                    <Link to="/about">Home</Link>
                 </NavItem>
                 <NavItem>
                     <Link to="/portfolio">Portfolio</Link>
