@@ -10,7 +10,8 @@ class GlobalNavbar extends React.Component {
             <Navbar
                 className="nav"
                 alignLinks="right"
-                brand={<a className="brand-logo" href="/"><img src={logo} width="180" height="60" alt="'Jessee' logo" className="brand-logo"></img></a>}
+                brand={<Link to="/"><img src={logo} width="180" height="60" alt="'Jessee' logo" className="brand-logo"></img></Link>}
+                // brand={<a className="brand-logo" href="/"><img src={logo} width="180" height="60" alt="'Jessee' logo" className="brand-logo"></img></a>}
                 id="mobile-nav"
                 menuIcon={<Icon>menu</Icon>}
                 options={{

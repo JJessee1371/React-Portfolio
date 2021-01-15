@@ -1,11 +1,11 @@
 import React from 'react';
-import { HashRouter as Router, Route, Link } from 'react-router-dom';
-import './CSS/Global/App.css';
+import { HashRouter as Router, Route } from 'react-router-dom';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import GlobalNavbar from './Components/GlobalNavbar';
 import Footer from './Components/Footer';
+import './CSS/Global/App.css';
 
 
 class App extends React.Component {

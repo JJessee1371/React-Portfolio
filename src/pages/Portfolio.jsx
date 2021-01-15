@@ -1,5 +1,5 @@
 import React from 'react';
-import { ProjectsRow1, ProjectsRow2, ProjectsRow3 } from '../Projects';
+import { ProjectsRow1, ProjectsRow2, ProjectsRow3 } from '../Projects.js';
 import { PortfolioHeader } from '../Components/GenericHeader';
 import Card from '../Components/Card';
 
@@ -22,6 +22,7 @@ class Portfolio extends React.Component {
                     <PortfolioHeader/>
                     <div class="row">
                         {this.state.ProjectsRow1.map(item => {
+                            console.log(item.src);
                             return (
                                 <Card
                                     id={item.id}

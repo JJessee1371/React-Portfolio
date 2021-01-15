@@ -13,7 +13,7 @@ function Skills() {
                 <li><i className="fab fa-node-js"></i> Node.js</li>
                 <li><i className="fas fa-database sql"></i> MySQL</li>
                 <li><i className="fas fa-database mongo"></i> MongoDB</li>
-                <li><i class="fab fa-react"></i> React</li>
+                <li><i className="fab fa-react"></i> React</li>
                 <li><i className="fab fa-microsoft"></i> Microsoft Office</li>
             </ul>
         </div>
