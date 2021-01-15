@@ -7,11 +7,11 @@ import Footer from '../Components/Footer';
 function Contact() {
     return (
         <div>
-            <GlobalNavbar/>
+            {/* <GlobalNavbar/> */}
             <div>
                 <ContactHeader/>
                 <ContactWrapper/>
-                <Footer/>
+                {/* <Footer/> */}
             </div>
         </div>
     );

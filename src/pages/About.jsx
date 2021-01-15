@@ -8,13 +8,13 @@ import Footer from '../Components/Footer';
 function About() {
     return (
         <div>
-            <GlobalNavbar/>
+            {/* <GlobalNavbar/> */}
             <main className="container">
                 <BioContainer/>
                 <Awards/>
                 <SkillContainer/>
             </main>
-            <Footer/>
+            {/* <Footer/> */}
         </div>
     );
 };

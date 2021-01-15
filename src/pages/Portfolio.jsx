@@ -23,7 +23,7 @@ class Portfolio extends React.Component {
         return (
             <div>
                 <main>
-                    <GlobalNavbar/>
+                    {/* <GlobalNavbar/> */}
                     <PortfolioHeader/>
                     <div class="row">
                         {this.state.cardRow1.map(card => {
@@ -71,7 +71,7 @@ class Portfolio extends React.Component {
                         })};
                     </div>
                 </main>
-                <Footer/>
+                {/* <Footer/> */}
             </div>
         );
     };
