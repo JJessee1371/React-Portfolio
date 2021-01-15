@@ -8,7 +8,7 @@ import notepad from './images/note-taker.PNG';
 const ProjectsRow1 = [
     {
         "id": 1,
-        "src": {rememberThem},
+        "src": "./images/Remember-them.png",
         "alt": "Remember Them landing page",
         "title": "Remember Them",
         "desc": "Working with a team of 4 individuals, 2 of whom also served in the United States armed forces, we constructed this site as a place to pay tribute to the men and women who made the ultimate sacrifice for their country. My role in the team was primarily to work with JavaScript both on the front and back end to ensure our routes functioned properly and data was displayed as intended. This was an exciting project to work on and a unique opportunity to use many new technologies to construct something that represents the values I hold dearly.",
