@@ -1,6 +1,7 @@
 import React from 'react';
 import 'materialize-css';
 import '../CSS/Index/Bio.css';
+import resume from '../certificates/resume.pdf';
 
 function Bio() {
     return (
@@ -12,7 +13,7 @@ function Bio() {
             being a good follower or striving to be an exemplary leader. With an unconquerable attitude of positivity, a proven work ethic, and a well practiced ability to be flexible in rapidly changing 
             environments, he has the utomost confidence in his abilites to bring a unique and powerful skillset to the field of web development. 
             </p>
-            <p>Want to know more? View my resume <a href="/Certificates/resume.pdf" target="_blank" className="resume">here.</a></p>
+            <p>Want to know more? View my resume <a href={resume} target="_blank" rel="noreferrer" className="resume">here.</a></p>
         </div>
     );
 };

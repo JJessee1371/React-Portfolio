@@ -1,11 +1,7 @@
 import React from 'react';
-import cardRow1 from '../cardRow1.json';
-import cardRow2 from '../cardRow2.json';
-import cardRow3 from '../cardRow3.json';
-import GlobalNavbar from '../Components/GlobalNavbar';
+import { ProjectsRow1, ProjectsRow2, ProjectsRow3 } from '../Projects';
 import { PortfolioHeader } from '../Components/GenericHeader';
 import Card from '../Components/Card';
-import Footer from '../Components/Footer';
 
 
 class Portfolio extends React.Component {
@@ -13,9 +9,9 @@ class Portfolio extends React.Component {
         super();
 
         this.state = {
-            cardRow1,
-            cardRow2,
-            cardRow3
+            ProjectsRow1,
+            ProjectsRow2,
+            ProjectsRow3
         };
     };
 
@@ -23,55 +19,53 @@ class Portfolio extends React.Component {
         return (
             <div>
                 <main>
-                    {/* <GlobalNavbar/> */}
                     <PortfolioHeader/>
                     <div class="row">
-                        {this.state.cardRow1.map(card => {
+                        {this.state.ProjectsRow1.map(item => {
                             return (
                                 <Card
-                                    id={card.id}
-                                    src={card.src}
-                                    alt={card.alt}
-                                    title={card.title}
-                                    desc={card.desc}
-                                    deployed={card.deployed}
-                                    github={card.github}
+                                    id={item.id}
+                                    src={item.src}
+                                    alt={item.alt}
+                                    title={item.title}
+                                    desc={item.desc}
+                                    deployed={item.deployed}
+                                    github={item.github}
                                 />
                             );
                         })};
                     </div>
                     <div class="row">
-                        {this.state.cardRow2.map(card => {
+                        {this.state.ProjectsRow2.map(item => {
                             return (
                                 <Card
-                                    id={card.id}
-                                    src={card.src}
-                                    alt={card.alt}
-                                    title={card.title}
-                                    desc={card.desc}
-                                    deployed={card.deployed}
-                                    github={card.github}
+                                    id={item.id}
+                                    src={item.src}
+                                    alt={item.alt}
+                                    title={item.title}
+                                    desc={item.desc}
+                                    deployed={item.deployed}
+                                    github={item.github}
                                 />
                             );
                         })};
                     </div>
                     <div class="row">
-                        {this.state.cardRow3.map(card => {
+                        {this.state.ProjectsRow3.map(item => {
                             return (
                                 <Card
-                                    id={card.id}
-                                    src={card.src}
-                                    alt={card.alt}
-                                    title={card.title}
-                                    desc={card.desc}
-                                    deployed={card.deployed}
-                                    github={card.github}
+                                    id={item.id}
+                                    src={item.src}
+                                    alt={item.alt}
+                                    title={item.title}
+                                    desc={item.desc}
+                                    deployed={item.deployed}
+                                    github={item.github}
                                 />
                             );
                         })};
                     </div>
                 </main>
-                {/* <Footer/> */}
             </div>
         );
     };

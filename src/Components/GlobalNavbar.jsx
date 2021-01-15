@@ -2,6 +2,7 @@ import React from 'react';
 import { Navbar, NavItem, Icon } from 'react-materialize';
 import { Link } from 'react-router-dom';
 import 'materialize-css/dist/css/materialize.min.css';
+import logo from '../images/logo.png';
 
 class GlobalNavbar extends React.Component {
     render() {
@@ -9,7 +10,7 @@ class GlobalNavbar extends React.Component {
             <Navbar
                 className="nav"
                 alignLinks="right"
-                brand={<a className="brand-logo" href="/"><img src="/images/logo.png" width="180" height="60" alt="'Jessee' logo" className="brand-logo"></img></a>}
+                brand={<a className="brand-logo" href="/"><img src={logo} width="180" height="60" alt="'Jessee' logo" className="brand-logo"></img></a>}
                 id="mobile-nav"
                 menuIcon={<Icon>menu</Icon>}
                 options={{
