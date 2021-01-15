@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { HashRouter, Switch, Route } from 'react-router-dom';
 import './CSS/Global/App.css';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
@@ -10,13 +10,13 @@ class App extends React.Component {
   render() {
     return (
       <>
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <HashRouter basename="https://jjessee1371.github.io/React-Portfolio/">
         <Switch>
           <Route exact path='/about' component={About}/>
           <Route exact path='/portfolio' component={Portfolio}/>
           <Route exact path='/contact' component={Contact}/>
         </Switch>
-      </BrowserRouter>
+      </HashRouter>
       </>
     );
   };
