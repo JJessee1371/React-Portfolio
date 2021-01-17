@@ -22,7 +22,6 @@ class Portfolio extends React.Component {
                     <PortfolioHeader/>
                     <div class="row">
                         {this.state.ProjectsRow1.map(item => {
-                            console.log(item.src);
                             return (
                                 <Card
                                     id={item.id}
