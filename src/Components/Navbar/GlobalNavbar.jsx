@@ -1,8 +1,9 @@
 import React from 'react';
 import { Navbar, NavItem, Icon } from 'react-materialize';
 import { Link } from 'react-router-dom';
+import logo from '../../images/logo.png';
 import 'materialize-css/dist/css/materialize.min.css';
-import logo from '../images/logo.png';
+
 
 class GlobalNavbar extends React.Component {
     render() {

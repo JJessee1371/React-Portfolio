@@ -1,9 +1,10 @@
 .card {
-    height: 941px;
     border-radius: 10px;
     background-image: linear-gradient(#abacb1, #c6c7cc, #e0e1e6, #f2f4ff);
     overflow: hidden;
-    padding: 10px;
+    padding: 30px;
+    border: 5px solid black;
+    border-style: double;
 }
 
 .card .card-title {
@@ -14,6 +15,7 @@
     display: block;
     text-align: center;
     text-decoration: underline;
+    font-weight: 800;
     margin-top: 5px;
 }
 
@@ -21,12 +23,23 @@
     font-size: 16px;
 }
 
-.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+#grow-deploy {
     color: #2956c7;
-    transition: all .2s ease-in-out;
+    transition: color 1s ease;
 }
 
-.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating):hover {
+#grow-deploy:hover {
+    text-decoration: underline;
+    color: rgb(136, 10, 136);
+    transform: scale(1.1);
+}
+
+#grow-github {
+    color: #2956c7;
+    transition: color 1s ease;
+}
+
+#grow-github:hover {
     text-decoration: underline;
     color: rgb(136, 10, 136);
     transform: scale(1.1);

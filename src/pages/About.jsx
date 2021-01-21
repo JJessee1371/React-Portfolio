@@ -1,7 +1,7 @@
 import React from 'react';
-import BioContainer from '../Components/BioContainer';
-import Awards from '../Components/Awards';
-import SkillContainer from '../Components/SkillContainer';
+import BioContainer from '../Components/BioContainer/BioContainer';
+import Awards from '../Components/Awards/Awards';
+import SkillContainer from '../Components/SkillContainer/SkillContainer';
 
 function About() {
     return (

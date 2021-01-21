@@ -1,6 +1,6 @@
 import React from 'react';
 import 'materialize-css';
-import '../CSS/Index/Skills.css';
+import './Skills.css';
 
 function Skills() {
     return (

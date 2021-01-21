@@ -1,6 +1,7 @@
 import React from 'react';
-import '../CSS/Index/AboutHeader.css';
+import './AboutHeader.css';
 
+//Homepage unique header
 function AboutHeader() {
     return (
         <header className="header-main">

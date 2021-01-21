@@ -1,8 +1,9 @@
 import React from 'react';
+import Skills from '../Skills/Skills';
+import Certs from '../Certs/Certs';
 import 'materialize-css';
-import '../CSS/Index/SkillContainer.css';
-import Skills from './Skills';
-import Certs from './Certs';
+import './SkillContainer.css';
+
 
 function SkillContainer() {
     return (

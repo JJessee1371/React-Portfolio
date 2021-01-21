@@ -1,6 +1,6 @@
 import React from 'react';
-import { ContactHeader } from '../Components/GenericHeader';
-import ContactWrapper from '../Components/ContactWrapper';
+import { ContactHeader } from '../Components/GenericHeader/GenericHeader';
+import ContactWrapper from '../Components/ContactWrapper/ContactWrapper';
 
 function Contact() {
     return (

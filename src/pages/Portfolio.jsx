@@ -1,7 +1,7 @@
 import React from 'react';
 import { ProjectsRow1, ProjectsRow2, ProjectsRow3 } from '../Projects.js';
-import { PortfolioHeader } from '../Components/GenericHeader';
-import Card from '../Components/Card';
+import { PortfolioHeader } from '../Components/GenericHeader/GenericHeader';
+import Card from '../Components/Card/Card';
 
 
 class Portfolio extends React.Component {

@@ -1,7 +1,8 @@
 import React from 'react';
+import resume from '../../certificates/resume.pdf';
 import 'materialize-css';
-import '../CSS/Index/Bio.css';
-import resume from '../certificates/resume.pdf';
+import './Bio.css';
+
 
 function Bio() {
     return (

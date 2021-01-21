@@ -1,7 +1,7 @@
 import React from 'react';
+import portrait from '../../images/me.jpg';
 import 'materialize-css';
-import '../CSS/Index/AboutImg.css';
-import portrait from '../images/me.jpg';
+import './AboutImg.css';
 
 function AboutImg() {
     return (

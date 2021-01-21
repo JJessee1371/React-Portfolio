@@ -1,12 +1,13 @@
 import React from 'react';
+import html from '../../certificates/HTML-essential-training.pdf';
+import css from '../../certificates/CSS-essential-training.pdf';
+import node from '../../certificates/nodejs-essential-training.pdf';
+import mongo from '../../certificates/MongoDB.pdf';
+import excel from '../../certificates/excel-2019-essential-training.pdf';
+import word from '../../certificates/word-2019-essential-training.pdf';
 import 'materialize-css';
-import '../CSS/Index/Certs.css';
-import html from '../certificates/HTML-essential-training.pdf';
-import css from '../certificates/CSS-essential-training.pdf';
-import node from '../certificates/nodejs-essential-training.pdf';
-import mongo from '../certificates/MongoDB.pdf';
-import excel from '../certificates/excel-2019-essential-training.pdf';
-import word from '../certificates/word-2019-essential-training.pdf';
+import './Certs.css';
+
 
 function Certs() {
     return (

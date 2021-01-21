@@ -1,5 +1,6 @@
 body {
-    background-image: linear-gradient(#252b39, #3b455e, #404c68, #617197);
+    /* background-image: linear-gradient(#252b39, #3b455e, #404c68, #617197); */
+    background: #252b39;
     box-sizing: border-box;
 }
 

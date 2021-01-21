@@ -1,9 +1,10 @@
 import React from 'react';
+import AboutHeader from '../AboutHeader/AboutHeader';
+import AboutImg from '../AboutImg/AboutImg';
+import Bio from '../Bio/Bio';
 import 'materialize-css';
-import '../CSS/Index/BioContainer.css';
-import AboutHeader from './AboutHeader';
-import AboutImg from './AboutImg';
-import Bio from './Bio';
+import './BioContainer.css';
+
 
 function BioContainer() {
     return (
