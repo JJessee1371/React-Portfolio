@@ -2,7 +2,7 @@ import rememberThem from './images/Remember-them.png';
 import readmeGen from './images/readme-generator.PNG';
 import busTracker from './images/employee-tracker.PNG';
 import passwordGen from './images/password-generator.PNG';
-import weatherDash from './images/weather-dashboard.PNG';
+import weatherDash from './images/weatherdash_pic.PNG';
 import notepad from './images/note-taker.PNG';
 
 //Project info to be passed as props to Card component for portfolio page
