@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.b918e4c0.chunk.css",
-    "main.js": "/React-Portfolio/static/js/main.f308f2c5.chunk.js",
-    "main.js.map": "/React-Portfolio/static/js/main.f308f2c5.chunk.js.map",
+    "main.js": "/React-Portfolio/static/js/main.0d614818.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.0d614818.chunk.js.map",
     "runtime-main.js": "/React-Portfolio/static/js/runtime-main.9dfcc5ab.js",
     "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.9dfcc5ab.js.map",
     "static/css/2.a7230bcb.chunk.css": "/React-Portfolio/static/css/2.a7230bcb.chunk.css",
@@ -25,7 +25,7 @@
     "static/media/password-generator.6ded9323.PNG": "/React-Portfolio/static/media/password-generator.6ded9323.PNG",
     "static/media/readme-generator.adca3d01.PNG": "/React-Portfolio/static/media/readme-generator.adca3d01.PNG",
     "static/media/resume.2dc61432.pdf": "/React-Portfolio/static/media/resume.2dc61432.pdf",
-    "static/media/weather-dashboard.074c68d6.PNG": "/React-Portfolio/static/media/weather-dashboard.074c68d6.PNG",
+    "static/media/weatherdash_pic.6ae5a5c1.PNG": "/React-Portfolio/static/media/weatherdash_pic.6ae5a5c1.PNG",
     "static/media/word-2019-essential-training.d1080510.pdf": "/React-Portfolio/static/media/word-2019-essential-training.d1080510.pdf"
   },
   "entrypoints": [
@@ -33,6 +33,6 @@
     "static/css/2.a7230bcb.chunk.css",
     "static/js/2.d8da03e4.chunk.js",
     "static/css/main.b918e4c0.chunk.css",
-    "static/js/main.f308f2c5.chunk.js"
+    "static/js/main.0d614818.chunk.js"
   ]
 }
