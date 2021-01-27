@@ -1,64 +1,78 @@
 import React from 'react';
-import { Navbar, Icon, SideNav, SideNavItem, Button } from 'react-materialize';
+import { Navbar, NavItem, Icon, SideNav, SideNavItem, Button } from 'react-materialize';
+import sidenavBg from '../../images/sidenav_bg.jpg';
 import logo from '../../images/logo.png';
+import resume from '../../certificates/resume.pdf';
 import 'materialize-css/dist/css/materialize.min.css';
 import './GlobalNavbar.css';
 
 class GlobalNavbar extends React.Component {
     render() {
         return (
-            <Navbar>
-                <div>
-                    <style>
-                        {`
-                            #root > div > div {
-                            z-index: 99999 !important;
-                            }
-                        `}
-                    </style>
-                    <SideNav
-                        id="SideNav-10"
-                        options={{
-                        draggable: true
-                        }}
-                        trigger={<Button node="button" className="sidenavBtn"><Icon>dehaze</Icon></Button>}
-                    >
-                        <SideNavItem
-                        user={{
-                            background: 'https://placeimg.com/640/480/tech',
-                            email: 'tjessee7624@gmail.com',
-                            image: 'static/media/react-materialize-logo.824c6ea3.svg',
-                            name: 'Jon Jessee'
-                        }}
-                        userView
-                        />
-                        <SideNavItem divider/>
-                        <SideNavItem
-                            href="/"
-                            waves
-                            icon={<Icon>home</Icon>}
+            
+                <Navbar className="flex-container">
+                    <div>
+                        <style>
+                            {`
+                                #root > div > div {
+                                z-index: 99999 !important;
+                                }
+                            `}
+                        </style>
+                        <SideNav
+                            id="SideNav-10"
+                            options={{
+                            draggable: true
+                            }}
+                            trigger={<Button node="button" className="sidenavBtn"><Icon>dehaze</Icon></Button>}
                         >
-                            Home
-                        </SideNavItem>
-                        <SideNavItem divider/>
-                        <SideNavItem 
-                            href="/portfolio"
-                            waves
-                            icon={<Icon>art_track</Icon>}
+                            <SideNavItem
+                            user={{
+                                background: sidenavBg,
+                                email: 'tjessee7624@gmail.com',
+                                name: 'Jon Jessee'
+                            }}
+                            userView
+                            />
+                            <SideNavItem divider/>
+                            <SideNavItem
+                                href="#/"
+                                waves
+                                icon={<Icon>home</Icon>}
                             >
-                            Portfolio
-                        </SideNavItem>
-                        <SideNavItem divider />
-                        <SideNavItem
-                            href="/contact"
-                            waves
-                            icon={<Icon>markunread</Icon>}
-                        >
-                            Contact
-                        </SideNavItem>
-                    </SideNav>
-                </div>
-            </Navbar>
+                                Home
+                            </SideNavItem>
+                            <SideNavItem divider/>
+                            <SideNavItem 
+                                href="#/portfolio"
+                                waves
+                                icon={<Icon>art_track</Icon>}
+                                >
+                                Portfolio
+                            </SideNavItem>
+                            <SideNavItem divider />
+                            <SideNavItem
+                                href="#/contact"
+                                waves
+                                icon={<Icon>markunread</Icon>}
+                            >
+                                Contact
+                            </SideNavItem>
+                            <SideNavItem divider />
+                            <SideNavItem
+                                href={resume}
+                                waves
+                                icon={<Icon>portrait</Icon>}
+                            >
+                                Resume
+                            </SideNavItem>
+                        </SideNav>
+                    </div>
+                    <img src={logo} alt="'Jessee' logo" className="logo"></img>
+                </Navbar>
+                
+            
+            
             
             // <Navbar
             //     className="nav"

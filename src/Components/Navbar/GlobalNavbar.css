@@ -1,3 +1,18 @@
+.flex-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
 .sidenavBtn {
     background:#a13b44;
+}
+
+.sidenavBtn:hover {
+    background: #e96d78;
+}
+
+.logo {
+    width: 10em;
+    margin-left: auto;
+    margin-right: auto;
 }

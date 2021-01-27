@@ -13,8 +13,8 @@ function Card(props) {
               <p>{props.desc}</p>
             </div>
             <div className="card-action">
-              <a href={props.deployed} target="blank" id="grow-deploy">Deployed Application</a>
-              <a href={props.github} target="blank" id="grow-github">GitHub Repository</a>
+              <a href={props.deployed} target="blank" id="grow-deploy"><i className="fas fa-globe-americas"></i> Deployed Application</a>
+              <a href={props.github} target="blank" id="grow-github"><i className="fab fa-github"></i> GitHub Repository</a>
             </div>
           </div>
         </div>
