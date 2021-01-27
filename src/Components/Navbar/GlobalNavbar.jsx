@@ -72,13 +72,13 @@ class GlobalNavbar extends React.Component {
                     </div>
                 }
                 >
-                <NavItem href="#/">
+                <NavItem href="/">
                     Home
                 </NavItem>
-                <NavItem href="#/portfolio">
+                <NavItem href="/portfolio">
                     Portfolio
                 </NavItem>
-                <NavItem href="#/contact">
+                <NavItem href="/contact">
                     Contact
                 </NavItem>
                 <NavItem href={resume}>
