@@ -1,13 +1,16 @@
 #line1 {
     text-align: left;
+    font-size: 1.5em;
 }
 
 #line2 {
     text-align: center;
+    font-size: 1.5em;
 }
 
 #line3 {
     text-align: right;
+    font-size: 1.5em;
 }
 
 .animated {
