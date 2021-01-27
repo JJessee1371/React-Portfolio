@@ -1,0 +1,17 @@
+#linkedin {
+    display: inline;
+    color: black;
+}
+
+#linkedin:hover {
+    opacity: 0.75;
+}
+
+#github {
+    display: inline;
+    color: black;
+}
+
+#github:hover {
+    opacity: 0.75;
+}

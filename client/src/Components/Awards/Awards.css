@@ -1,0 +1,14 @@
+.row1 {
+    margin: 20px auto;
+    padding: 20px;
+    background-image: linear-gradient(#abacb1, #c6c7cc, #e0e1e6, #f2f4ff);
+}
+
+.center {
+    text-align: center;
+}
+
+#awards > li {
+    list-style-type: circle;
+    font-size: 16px;
+}
