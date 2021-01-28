@@ -1,0 +1,27 @@
+.wrapper {
+    margin: 20px auto;
+    padding: 20px;
+    width: 75%;
+    background-image: url('../../images/usmc_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.textbg {
+    background: rgb(199, 196, 196, .45);
+}
+
+.header {
+    text-align: center;
+}
+
+.text {
+    font-size: 1.5em;
+    color: black;
+}
+
+@media screen and (min-width: 375px) and (max-width: 1024px) {
+    .header {
+        color: rgb(201, 38, 38);
+    }
+}
