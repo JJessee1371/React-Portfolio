@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.ab85cc27.chunk.css",
-    "main.js": "/React-Portfolio/static/js/main.499c707d.chunk.js",
-    "main.js.map": "/React-Portfolio/static/js/main.499c707d.chunk.js.map",
+    "main.css": "/React-Portfolio/static/css/main.eff7e9e4.chunk.css",
+    "main.js": "/React-Portfolio/static/js/main.8984e5c9.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.8984e5c9.chunk.js.map",
     "runtime-main.js": "/React-Portfolio/static/js/runtime-main.ba1c2482.js",
     "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.ba1c2482.js.map",
     "static/css/2.0ba96f5c.chunk.css": "/React-Portfolio/static/css/2.0ba96f5c.chunk.css",
-    "static/js/2.816c1c84.chunk.js": "/React-Portfolio/static/js/2.816c1c84.chunk.js",
-    "static/js/2.816c1c84.chunk.js.map": "/React-Portfolio/static/js/2.816c1c84.chunk.js.map",
+    "static/js/2.38354ce2.chunk.js": "/React-Portfolio/static/js/2.38354ce2.chunk.js",
+    "static/js/2.38354ce2.chunk.js.map": "/React-Portfolio/static/js/2.38354ce2.chunk.js.map",
     "index.html": "/React-Portfolio/index.html",
     "static/css/2.0ba96f5c.chunk.css.map": "/React-Portfolio/static/css/2.0ba96f5c.chunk.css.map",
-    "static/css/main.ab85cc27.chunk.css.map": "/React-Portfolio/static/css/main.ab85cc27.chunk.css.map",
-    "static/js/2.816c1c84.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.816c1c84.chunk.js.LICENSE.txt",
+    "static/css/main.eff7e9e4.chunk.css.map": "/React-Portfolio/static/css/main.eff7e9e4.chunk.css.map",
+    "static/js/2.38354ce2.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.38354ce2.chunk.js.LICENSE.txt",
     "static/media/CSS-essential-training.ad66d613.pdf": "/React-Portfolio/static/media/CSS-essential-training.ad66d613.pdf",
     "static/media/HTML-essential-training.379a4d47.pdf": "/React-Portfolio/static/media/HTML-essential-training.379a4d47.pdf",
     "static/media/MongoDB.f0ab40eb.pdf": "/React-Portfolio/static/media/MongoDB.f0ab40eb.pdf",
@@ -26,14 +26,15 @@
     "static/media/readme-generator.adca3d01.PNG": "/React-Portfolio/static/media/readme-generator.adca3d01.PNG",
     "static/media/resume.2dc61432.pdf": "/React-Portfolio/static/media/resume.2dc61432.pdf",
     "static/media/sidenav_bg.2b28464e.jpg": "/React-Portfolio/static/media/sidenav_bg.2b28464e.jpg",
+    "static/media/Upcoming.css": "/React-Portfolio/static/media/usmc_bg.ba9a12d5.jpg",
     "static/media/weatherdash_pic.6ae5a5c1.PNG": "/React-Portfolio/static/media/weatherdash_pic.6ae5a5c1.PNG",
     "static/media/word-2019-essential-training.d1080510.pdf": "/React-Portfolio/static/media/word-2019-essential-training.d1080510.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.ba1c2482.js",
     "static/css/2.0ba96f5c.chunk.css",
-    "static/js/2.816c1c84.chunk.js",
-    "static/css/main.ab85cc27.chunk.css",
-    "static/js/main.499c707d.chunk.js"
+    "static/js/2.38354ce2.chunk.js",
+    "static/css/main.eff7e9e4.chunk.css",
+    "static/js/main.8984e5c9.chunk.js"
   ]
 }
