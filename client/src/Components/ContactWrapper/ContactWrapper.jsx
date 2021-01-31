@@ -1,6 +1,7 @@
 import React from 'react';
 import ContactCollection from '../ContactCollection/ContactCollection';
 import 'materialize-css';
+import './ContactWrapper.css';
 
 
 function ContactWrapper() {
