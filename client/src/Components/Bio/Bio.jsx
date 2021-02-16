@@ -6,7 +6,7 @@ import './Bio.css';
 
 function Bio() {
     return (
-        <div className="col s12 m6 l6 xl6">
+        <div className="col s12 m6 l6 xl6 container">
             <p className="bio-text">
             Jon Jessee is a Salt Lake City based developer with a fervor for learning and applying that knowledge to real world problems. He is a firm believer that in a difficult situation
             an individual will not rise to the occassion, but rather fall back to the instincts instilled by their training and habits. It is this philosophy that has repeatedly served him well in all endeavors

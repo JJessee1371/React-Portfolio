@@ -1,10 +1,12 @@
-.center {
+.title {
     text-align: center;
+    color: rgb(220, 211, 211);
 }
 
 #hskills > li {
     list-style-type: circle;
     font-size: 16px;
+    color: rgb(220, 211, 211);
 }
 
 .fa-html5 {
@@ -29,4 +31,8 @@
 
 .mongo {
     color: green;
+}
+
+.fa-react {
+    color: rgb(58, 147, 177);
 }

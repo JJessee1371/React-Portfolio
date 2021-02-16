@@ -4,9 +4,9 @@ import './Awards.css';
 
 function Awards() {
     return (
-        <div className="row row1">
+        <div className="row row2">
             <div className="col s12 m12 l12 xl12">
-                <h3 className="center">Honors & Awards</h3>
+                <h3 className="title">Honors & Awards</h3>
                 <ul id="awards">
                     <li>AP Scholar with Distinction - 2014 - Advanced Placement Board</li>
                     <li>Eagle Scout Award - 2014 - Boy Scouts of America</li>

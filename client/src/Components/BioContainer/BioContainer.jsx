@@ -8,7 +8,7 @@ import './BioContainer.css';
 
 function BioContainer() {
     return (
-        <div className="row bio">
+        <div className="row bio row1">
             <AboutHeader/>
             <AboutImg/>
             <Bio/>

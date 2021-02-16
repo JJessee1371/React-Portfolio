@@ -7,7 +7,7 @@ import './SkillContainer.css';
 
 function SkillContainer() {
     return (
-        <div className="row row2">
+        <div className="row row3">
             <Skills/>
             <Certs/>
         </div>
