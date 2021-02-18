@@ -8,13 +8,13 @@ function Awards() {
             <div className="col s12 m12 l12 xl12">
                 <h3 className="title">Honors & Awards</h3>
                 <ul id="awards">
-                    <li>AP Scholar with Distinction - 2014 - Advanced Placement Board</li>
-                    <li>Eagle Scout Award - 2014 - Boy Scouts of America</li>
-                    <li>National Defense Ribbon - 2018 - United States Marine Corps</li>
-                    <li>Global War on Terrorism Ribbon - 2019 - United States Marine Corps</li>
-                    <li>Meritorious Mast Certificate - 2019 - Marine Corps Engineer School</li>
-                    <li>Academic Honor Graduate - 2019 - Marine Corps Association Foundation</li>
-                    <li>Navy Achievement Medal - 2020 - United States Marine Corps</li>
+                    <li className="award">AP Scholar with Distinction - 2014 - Advanced Placement Board</li>
+                    <li className="award">Eagle Scout Award - 2014 - Boy Scouts of America</li>
+                    <li className="award">National Defense Ribbon - 2018 - United States Marine Corps</li>
+                    <li className="award">Global War on Terrorism Ribbon - 2019 - United States Marine Corps</li>
+                    <li className="award">Meritorious Mast Certificate - 2019 - Marine Corps Engineer School</li>
+                    <li className="award">Academic Honor Graduate - 2019 - Marine Corps Association Foundation</li>
+                    <li className="award">Navy Achievement Medal - 2020 - United States Marine Corps</li>
                 </ul>
             </div>
         </div>

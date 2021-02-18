@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from '../../certificates/resume.pdf';
+import resume from '../../certificates/Resume.pdf';
 import 'materialize-css';
 import './Bio.css';
 

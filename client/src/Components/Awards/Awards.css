@@ -21,3 +21,9 @@
 .row2 {
     border: solid black 3px;
 }
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+    .award {
+        margin-bottom: 5px;
+    }
+}

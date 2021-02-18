@@ -1,12 +1,8 @@
-.center {
-    text-align: center;
-}
-
 .certs {
-    color: #3f5faf;
+    color: #798fc9;
 }
 
 .certs:hover {
     text-decoration: underline;
-    color: rgb(136, 10, 136);
+    color: rgb(169, 18, 169);
 }

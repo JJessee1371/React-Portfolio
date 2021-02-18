@@ -2,6 +2,7 @@ import React from 'react';
 import { ProjectsRow1, ProjectsRow2, ProjectsRow3 } from '../Projects.js';
 import { PortfolioHeader } from '../Components/GenericHeader/GenericHeader';
 import Card from '../Components/Card/Card';
+import Upcoming from '../Components/Upcoming/Upcoming';
 
 
 class Portfolio extends React.Component {
@@ -66,6 +67,8 @@ class Portfolio extends React.Component {
                         })};
                     </div>
                 </main>
+                <hr></hr>
+                <Upcoming/>
             </div>
         );
     };
