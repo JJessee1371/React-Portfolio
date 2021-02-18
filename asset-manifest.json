@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.388bc007.chunk.css",
-    "main.js": "/React-Portfolio/static/js/main.397a7a3c.chunk.js",
-    "main.js.map": "/React-Portfolio/static/js/main.397a7a3c.chunk.js.map",
+    "main.css": "/React-Portfolio/static/css/main.0d6050dc.chunk.css",
+    "main.js": "/React-Portfolio/static/js/main.226db968.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.226db968.chunk.js.map",
     "runtime-main.js": "/React-Portfolio/static/js/runtime-main.ba1c2482.js",
     "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.ba1c2482.js.map",
     "static/css/2.0ba96f5c.chunk.css": "/React-Portfolio/static/css/2.0ba96f5c.chunk.css",
@@ -10,12 +10,13 @@
     "static/js/2.1de73566.chunk.js.map": "/React-Portfolio/static/js/2.1de73566.chunk.js.map",
     "index.html": "/React-Portfolio/index.html",
     "static/css/2.0ba96f5c.chunk.css.map": "/React-Portfolio/static/css/2.0ba96f5c.chunk.css.map",
-    "static/css/main.388bc007.chunk.css.map": "/React-Portfolio/static/css/main.388bc007.chunk.css.map",
+    "static/css/main.0d6050dc.chunk.css.map": "/React-Portfolio/static/css/main.0d6050dc.chunk.css.map",
     "static/js/2.1de73566.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.1de73566.chunk.js.LICENSE.txt",
     "static/media/CSS-essential-training.ad66d613.pdf": "/React-Portfolio/static/media/CSS-essential-training.ad66d613.pdf",
     "static/media/HTML-essential-training.379a4d47.pdf": "/React-Portfolio/static/media/HTML-essential-training.379a4d47.pdf",
     "static/media/MongoDB.f0ab40eb.pdf": "/React-Portfolio/static/media/MongoDB.f0ab40eb.pdf",
     "static/media/Remember-them.59203b76.png": "/React-Portfolio/static/media/Remember-them.59203b76.png",
+    "static/media/Resume.bde125d5.pdf": "/React-Portfolio/static/media/Resume.bde125d5.pdf",
     "static/media/Awards.css": "/React-Portfolio/static/media/awards.bg.962748ab.jpg",
     "static/media/bootcamp_cert.58f2dc1a.pdf": "/React-Portfolio/static/media/bootcamp_cert.58f2dc1a.pdf",
     "static/media/employee-tracker.51f37776.PNG": "/React-Portfolio/static/media/employee-tracker.51f37776.PNG",
@@ -26,7 +27,6 @@
     "static/media/note-taker.2b4b086c.PNG": "/React-Portfolio/static/media/note-taker.2b4b086c.PNG",
     "static/media/password-generator.6ded9323.PNG": "/React-Portfolio/static/media/password-generator.6ded9323.PNG",
     "static/media/readme-generator.adca3d01.PNG": "/React-Portfolio/static/media/readme-generator.adca3d01.PNG",
-    "static/media/resume.2dc61432.pdf": "/React-Portfolio/static/media/resume.2dc61432.pdf",
     "static/media/sidenav_bg.2b28464e.jpg": "/React-Portfolio/static/media/sidenav_bg.2b28464e.jpg",
     "static/media/SkillContainer.css": "/React-Portfolio/static/media/skills.bg.ebddaa12.jpg",
     "static/media/Upcoming.css": "/React-Portfolio/static/media/usmc_bg.ba9a12d5.jpg",
@@ -37,7 +37,7 @@
     "static/js/runtime-main.ba1c2482.js",
     "static/css/2.0ba96f5c.chunk.css",
     "static/js/2.1de73566.chunk.js",
-    "static/css/main.388bc007.chunk.css",
-    "static/js/main.397a7a3c.chunk.js"
+    "static/css/main.0d6050dc.chunk.css",
+    "static/js/main.226db968.chunk.js"
   ]
 }
