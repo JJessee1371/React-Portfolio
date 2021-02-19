@@ -1,9 +1,9 @@
 import rememberThem from './images/Remember-them.png';
-import readmeGen from './images/readme-generator.PNG';
+import fitness from './images/fitness-tracker.PNG';
+import budget from './images/budget.PNG';
 import busTracker from './images/employee-tracker.PNG';
-import passwordGen from './images/password-generator.PNG';
 import weatherDash from './images/weatherdash_pic.PNG';
-import notepad from './images/note-taker.PNG';
+import burger from './images/burger.PNG';
 
 //Project info to be passed as props to Card component for portfolio page
 const ProjectsRow1 = [
@@ -19,34 +19,34 @@ const ProjectsRow1 = [
 
     {
         "id": 2,
-        "src": readmeGen,
-        "alt": "Generated README file",
-        "title": "README Generator",
-        "desc": "Developers everywhere know that a well thought out README file is a key part of every project that they create. The goal of this command line interface application was to enable developers to quickly generate a professional looking README file after answering some simple prompts. Making use of the Inquirer and Axios modules, the application uses the input to create a thorough README with directions for installation, testing, and contributing along with other key pieces of information.",
-        "deployed": "https://drive.google.com/file/d/1ukiiTXq5WZY4A8F8IdjZG3cV2tbuUMbf/view",
-        "github": "https://github.com/JJessee1371/README-Creator"
+        "src": budget,
+        "alt": "Chart showing income and expenses over a period of time",
+        "title": "Frugal",
+        "desc": "Tracking money requires a lot of attention, knowing that users won't always have direct access to the internet this progressive web application was developed with that in mind. Whether a user is on or offline they can now easily notate their income and expenses and be given a visual representation of their overall balance. The most challenging feature to construct was the IndexedDB where their information is kept. Being completely different from MongoDB and MySQL it took some time to work out exactly what needed to happen in order for data to be stored properly.",
+        "deployed": "https://tranquil-beyond-36322.herokuapp.com/",
+        "github": "https://github.com/JJessee1371/PWA-Budget-Tracker"
     }
 ];
 
 const ProjectsRow2 = [
     {
         "id": 3,
-        "src": busTracker,
-        "alt": "Business tracker application example display",
-        "title": "Business Tracker",
-        "desc": "This command line interface application was built with the difficulties of organizing a business in mind. By means of the inquirer module, the business tracker allows users to enter information about the departments, employees, managers, and employee roles within their company. Responses are stored in a database and can then be readily retrieved and viewed at their convenience. Initially I struggled integrating MySQL syntax into this application, but persistence and practice showed me how impactful it can be when making relations between data sets.",
-        "deployed": "https://drive.google.com/file/d/1Q8bZOeP3Oo494DBkEHeMl4JrsW4SurIn/view?usp=sharing",
-        "github": "https://github.com/JJessee1371/Employee-tracker"
+        "src": fitness,
+        "alt": "Charts displaying workout progression and breakdown",
+        "title": "Fitness Tracker",
+        "desc": "Working out is hard enough as it is, but when you can't readily track your progression it becomes even more difficult. With this application users can easily enter the data from their workouts and see that data visualized on the dashboard. Physical well being is extremely important, this application aims to make the journey easier. Being one of my very first projects to include MongoDB I initially struggled to obtain the functionality I wanted. Over many hours of research and after the implementation of many new debugging techniques, the gratification of success was well worth the effort.",
+        "deployed": "https://powerful-ocean-47292.herokuapp.com/",
+        "github": "https://github.com/JJessee1371/Fitness-Tracker"
     },
 
     {
         "id": 4,
-        "src": passwordGen,
-        "alt": "Password generator landing page",
-        "title": "Password Generator",
-        "desc": "After collecting information from the user based on what character types should be included, this application generates a completely random password. As my very first project built using JavaScript it was a challenge to bring together the concepts and methods that would be most useful for creating this tool. Returning to this project after a few months to refactor the code was an eye opening experience proving that with time and practice the same goal can be achieved through a wide variety of methods and with much less code that I had originally used.",
-        "deployed": "https://jjessee1371.github.io/password-generator/",
-        "github": "https://github.com/JJessee1371/password-generator"
+        "src": busTracker,
+        "alt": "Business tracker application example display",
+        "title": "Business Management System",
+        "desc": "This command line interface application was built with the difficulties of organizing a business in mind. By means of the inquirer module, the business tracker allows users to enter information about the departments, employees, managers, and employee roles within their company. Responses are stored in a database and can then be readily retrieved and viewed at their convenience. Initially I struggled integrating MySQL syntax into this application, but persistence and practice showed me how impactful it can be when making relations between data sets.",
+        "deployed": "https://drive.google.com/file/d/1Q8bZOeP3Oo494DBkEHeMl4JrsW4SurIn/view?usp=sharing",
+        "github": "https://github.com/JJessee1371/Employee-tracker"
     }
 ];
 
@@ -63,10 +63,10 @@ const ProjectsRow3 = [
 
     {
         "id": 6,
-        "src": notepad,
-        "alt": "Notepad example screenshot",
-        "title": "Notepad",
-        "desc": "Everyone needs a way to keep track of the multitude of things to be done each day whether it relates to personal to-dos or taking notes in meetings at work. The notepad allows users to write out and store their daily tasks and remove them from the list once completed. This project served as an opportunity to practice working with multiple server routes to make a cohesive application and began to pave the way for delving into work with storing information in databases.",
+        "src": burger,
+        "alt": "Landing page displaying text boxes to place an order and the eaten burgers",
+        "title": "Eat-Da-Burger",
+        "desc": "I am still a child at heart and this project was a good opportunity to have some fun with the theme of the page. The goal was to practice CRUD operations when using a MySQL database and then display the data to the user with the example of ordering burgers and eating them. After testing the functionality and ensuring all data was rendered properly, it only made sense to give our favorite childhood frycook a chance to shine.",
         "deployed": "https://peaceful-brook-94616.herokuapp.com/",
         "github": "https://github.com/JJessee1371/Notepad"
     }

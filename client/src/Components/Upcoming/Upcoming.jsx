@@ -3,8 +3,10 @@ import './Upcoming.css';
 
 function Upcoming() {
     return (
-        <div className="wrapper">
-                <h2 className="header">Upcoming Projects</h2>
+        <>
+            <h2 className="header">Upcoming Projects</h2>
+            <div className="wrapper">
+                <h3 className="title1">Semper Study</h3>
                 <div className="textbg">
                     <p className="text">As a new developer I am always seeking out opportunities to put my skills
                         to good use and earn valuable experience with new concepts and technologies.
@@ -19,7 +21,21 @@ function Upcoming() {
                         the associated technologies. 
                     </p>
                 </div>
-        </div>
+            </div>
+            <div className="wrapper2">
+                <h3 className="title2">Mindful</h3>
+                <div className="textbg">
+                    <p className="text">We all know that life is full of non stop challenges and obstacles.
+                    When the world seems to be spinning out of control it is essential that we take time to slow
+                    down and gather ourselves before proceeding. Mindful is here to give you the tools to combat
+                    stress and document your journey to becoming the master of your mind. As a PWA it gives users
+                    easier access to it at any time and provides a multitude of tips and tricks to maintaining a 
+                    calm demeanor even in the most stressful of situations.  
+                    </p>
+                </div>
+            </div>
+        </>
+        
     );
 };
 
