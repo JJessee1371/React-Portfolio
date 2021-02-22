@@ -1,0 +1,23 @@
+.success {
+    background: rgba(82, 201, 82, 0.6);
+    border: 2px solid black;
+    border-radius: 2rem;
+    width: 20rem;
+    padding: .75rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.error {
+    background: rgb(199, 65, 65, 0.6);
+    border: 2px solid black;
+    border-radius: 2rem;
+    width: 20rem;
+    padding: .75rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.25rem;
+    text-align: center;
+}

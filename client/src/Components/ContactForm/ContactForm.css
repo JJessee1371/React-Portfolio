@@ -1,0 +1,16 @@
+.contact-form {
+    background-image: url('../../images/message_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.form-header {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.form-label {
+    color: black !important;
+}
