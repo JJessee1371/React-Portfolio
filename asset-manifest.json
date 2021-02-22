@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.713c3a47.chunk.css",
-    "main.js": "/React-Portfolio/static/js/main.5bcf3a95.chunk.js",
-    "main.js.map": "/React-Portfolio/static/js/main.5bcf3a95.chunk.js.map",
+    "main.css": "/React-Portfolio/static/css/main.ae115666.chunk.css",
+    "main.js": "/React-Portfolio/static/js/main.e122104c.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.e122104c.chunk.js.map",
     "runtime-main.js": "/React-Portfolio/static/js/runtime-main.ba1c2482.js",
     "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.ba1c2482.js.map",
     "static/css/2.0ba96f5c.chunk.css": "/React-Portfolio/static/css/2.0ba96f5c.chunk.css",
-    "static/js/2.1de73566.chunk.js": "/React-Portfolio/static/js/2.1de73566.chunk.js",
-    "static/js/2.1de73566.chunk.js.map": "/React-Portfolio/static/js/2.1de73566.chunk.js.map",
+    "static/js/2.df37e965.chunk.js": "/React-Portfolio/static/js/2.df37e965.chunk.js",
+    "static/js/2.df37e965.chunk.js.map": "/React-Portfolio/static/js/2.df37e965.chunk.js.map",
     "index.html": "/React-Portfolio/index.html",
     "static/css/2.0ba96f5c.chunk.css.map": "/React-Portfolio/static/css/2.0ba96f5c.chunk.css.map",
-    "static/css/main.713c3a47.chunk.css.map": "/React-Portfolio/static/css/main.713c3a47.chunk.css.map",
-    "static/js/2.1de73566.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.1de73566.chunk.js.LICENSE.txt",
+    "static/css/main.ae115666.chunk.css.map": "/React-Portfolio/static/css/main.ae115666.chunk.css.map",
+    "static/js/2.df37e965.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.df37e965.chunk.js.LICENSE.txt",
     "static/media/CSS-essential-training.ad66d613.pdf": "/React-Portfolio/static/media/CSS-essential-training.ad66d613.pdf",
     "static/media/HTML-essential-training.379a4d47.pdf": "/React-Portfolio/static/media/HTML-essential-training.379a4d47.pdf",
     "static/media/MongoDB.f0ab40eb.pdf": "/React-Portfolio/static/media/MongoDB.f0ab40eb.pdf",
@@ -26,6 +26,7 @@
     "static/media/fitness-tracker.e74981da.PNG": "/React-Portfolio/static/media/fitness-tracker.e74981da.PNG",
     "static/media/logo.07848149.png": "/React-Portfolio/static/media/logo.07848149.png",
     "static/media/me.820afa0e.jpg": "/React-Portfolio/static/media/me.820afa0e.jpg",
+    "static/media/ContactForm.css": "/React-Portfolio/static/media/message_bg.13afe762.jpg",
     "static/media/Upcoming.css": "/React-Portfolio/static/media/usmc_bg.ba9a12d5.jpg",
     "static/media/nodejs-essential-training.90f17ec8.pdf": "/React-Portfolio/static/media/nodejs-essential-training.90f17ec8.pdf",
     "static/media/sidenav_bg.2b28464e.jpg": "/React-Portfolio/static/media/sidenav_bg.2b28464e.jpg",
@@ -36,8 +37,8 @@
   "entrypoints": [
     "static/js/runtime-main.ba1c2482.js",
     "static/css/2.0ba96f5c.chunk.css",
-    "static/js/2.1de73566.chunk.js",
-    "static/css/main.713c3a47.chunk.css",
-    "static/js/main.5bcf3a95.chunk.js"
+    "static/js/2.df37e965.chunk.js",
+    "static/css/main.ae115666.chunk.css",
+    "static/js/main.e122104c.chunk.js"
   ]
 }
