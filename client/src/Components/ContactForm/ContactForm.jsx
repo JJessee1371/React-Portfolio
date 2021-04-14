@@ -11,7 +11,7 @@ function ContactForm() {
     function sendEmail(event) {
         event.preventDefault();
 
-        emailjs.sendForm('service_x6sma0x', 'template_gf4iofk', event.target, 'user_yUxZEotsuxODhopQO3rnB')
+        emailjs.sendForm("service_x6sma0x", "template_gf4iofk", event.target, "user_yUxZEotsuxODhopQO3rnB")
         .then((result) => {
             console.log(result.text);
             setMessage('Message successfully sent');
