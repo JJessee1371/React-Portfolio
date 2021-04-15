@@ -8,13 +8,13 @@ function Bio() {
     return (
         <div className="col s12 m6 l6 xl6 container">
             <p className="bio-text">
-            Jon Jessee is a Salt Lake City based developer with a fervor for learning and applying that knowledge to real world problems. He is a firm believer that in a difficult situation
-            an individual will not rise to the occassion, but rather fall back to the instincts instilled by their training and habits. It is this philosophy that has repeatedly served him well in all endeavors
-            whether it was attending school, learning a new trade, or leading the Marines under his charge. In each of these situations, another important value he learned was teamwork, whether that meant 
-            being a good follower or striving to be an exemplary leader. With an unconquerable attitude of positivity, a proven work ethic, and a well practiced ability to be flexible in rapidly changing 
-            environments, he has the utomost confidence in his abilites to bring a unique and powerful skillset to the field of web development. 
+            Jon Jessee is a Jacksonville, NC based full stack web developer with a fervor for continuous learning and application of that knowledge to finding innovative solutions to problems. He 
+            entered the web development field in search of a new challenge and is wholly dedicated to using his skills to build tools that will magnify the passion and vision of their users. With
+            a background in diverse work environments including customer service, construction, tutoring, and the military his experience and skillset offer unique perspective and unmatched flexibility. 
+            Whether it was streamlining work processes in the office, going the extra mile to complete a project, or leading Marines in a training maneuver, he has repeatedly demonstrated an ability to 
+            flourish in fast paced environments, serve as an irreplaceable member of a team, and maintain an indomitable spirit. 
             </p>
-            <p className="bio-text">Want to know more? View my resume <a href={resume} target="_blank" rel="noreferrer" className="resume">here.</a></p>
+            <p className="bio-text">View my <a href={resume} target="_blank" rel="noreferrer" className="resume">resume</a></p>
         </div>
     );
 };
