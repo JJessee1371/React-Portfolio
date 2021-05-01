@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.ae115666.chunk.css",
-    "main.js": "/React-Portfolio/static/js/main.d17ec964.chunk.js",
-    "main.js.map": "/React-Portfolio/static/js/main.d17ec964.chunk.js.map",
+    "main.css": "/React-Portfolio/static/css/main.f49e13c5.chunk.css",
+    "main.js": "/React-Portfolio/static/js/main.49031f3d.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.49031f3d.chunk.js.map",
     "runtime-main.js": "/React-Portfolio/static/js/runtime-main.ba1c2482.js",
     "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.ba1c2482.js.map",
     "static/css/2.0ba96f5c.chunk.css": "/React-Portfolio/static/css/2.0ba96f5c.chunk.css",
@@ -10,11 +10,12 @@
     "static/js/2.df37e965.chunk.js.map": "/React-Portfolio/static/js/2.df37e965.chunk.js.map",
     "index.html": "/React-Portfolio/index.html",
     "static/css/2.0ba96f5c.chunk.css.map": "/React-Portfolio/static/css/2.0ba96f5c.chunk.css.map",
-    "static/css/main.ae115666.chunk.css.map": "/React-Portfolio/static/css/main.ae115666.chunk.css.map",
+    "static/css/main.f49e13c5.chunk.css.map": "/React-Portfolio/static/css/main.f49e13c5.chunk.css.map",
     "static/js/2.df37e965.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.df37e965.chunk.js.LICENSE.txt",
     "static/media/CSS-essential-training.ad66d613.pdf": "/React-Portfolio/static/media/CSS-essential-training.ad66d613.pdf",
     "static/media/HTML-essential-training.379a4d47.pdf": "/React-Portfolio/static/media/HTML-essential-training.379a4d47.pdf",
     "static/media/MongoDB.f0ab40eb.pdf": "/React-Portfolio/static/media/MongoDB.f0ab40eb.pdf",
+    "static/media/React-essential-training.a8f7dce5.pdf": "/React-Portfolio/static/media/React-essential-training.a8f7dce5.pdf",
     "static/media/Remember-them.59203b76.png": "/React-Portfolio/static/media/Remember-them.59203b76.png",
     "static/media/Resume.bde125d5.pdf": "/React-Portfolio/static/media/Resume.bde125d5.pdf",
     "static/media/Awards.css": "/React-Portfolio/static/media/awards.bg.962748ab.jpg",
@@ -28,7 +29,10 @@
     "static/media/me.820afa0e.jpg": "/React-Portfolio/static/media/me.820afa0e.jpg",
     "static/media/ContactForm.css": "/React-Portfolio/static/media/message_bg.13afe762.jpg",
     "static/media/Upcoming.css": "/React-Portfolio/static/media/usmc_bg.ba9a12d5.jpg",
+    "static/media/mysql-essential-training.0ab111a5.pdf": "/React-Portfolio/static/media/mysql-essential-training.0ab111a5.pdf",
     "static/media/nodejs-essential-training.90f17ec8.pdf": "/React-Portfolio/static/media/nodejs-essential-training.90f17ec8.pdf",
+    "static/media/react-apis.74f42581.pdf": "/React-Portfolio/static/media/react-apis.74f42581.pdf",
+    "static/media/react-hooks.8fdd9968.pdf": "/React-Portfolio/static/media/react-hooks.8fdd9968.pdf",
     "static/media/sidenav_bg.2b28464e.jpg": "/React-Portfolio/static/media/sidenav_bg.2b28464e.jpg",
     "static/media/SkillContainer.css": "/React-Portfolio/static/media/skills.bg.ebddaa12.jpg",
     "static/media/weatherdash_pic.6ae5a5c1.PNG": "/React-Portfolio/static/media/weatherdash_pic.6ae5a5c1.PNG",
@@ -38,7 +42,7 @@
     "static/js/runtime-main.ba1c2482.js",
     "static/css/2.0ba96f5c.chunk.css",
     "static/js/2.df37e965.chunk.js",
-    "static/css/main.ae115666.chunk.css",
-    "static/js/main.d17ec964.chunk.js"
+    "static/css/main.f49e13c5.chunk.css",
+    "static/js/main.49031f3d.chunk.js"
   ]
 }
