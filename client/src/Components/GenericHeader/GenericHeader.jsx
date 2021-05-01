@@ -1,11 +1,6 @@
 import React from 'react';
 import './GenericHeader.css';
 
-function ContactHeader() {
-    return (
-        <header className="page-header">Let's Connect!</header>
-    );
-};
 
 function PortfolioHeader() {
     return (
@@ -13,4 +8,4 @@ function PortfolioHeader() {
     );
 };
 
-export { ContactHeader, PortfolioHeader };
+export { PortfolioHeader };
