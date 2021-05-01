@@ -1,4 +1,23 @@
-.wrapper {
+.portfolio-header {
+    background-color: #d2bf55;
+    font-family: 'Neucha', cursive;
+    font-size: 1.6em;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.3em;
+    margin: 20px 0;
+    padding: 10px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.upcoming-header {
+    text-align: center;
+    color: rgb(220, 211, 211);
+}
+
+.proj1-wrap {
     margin: 20px auto;
     padding: 20px;
     width: 75%;
@@ -7,7 +26,13 @@
     background-size: cover;
 }
 
-.wrapper2 {
+.proj1-title {
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    color: rgb(160, 15, 15);
+}
+
+.proj2-wrap {
     margin: 20px auto;
     padding: 20px;
     width: 75%;
@@ -16,29 +41,18 @@
     background-size: cover;
 }
 
-.title1 {
-    font-family: 'Cinzel', serif;
-    text-align: center;
-    color: rgb(160, 15, 15);
-}
-
-.title2 {
+.proj2-title {
     font-family: 'Dancing Script', cursive;
     text-align: center;
     color: rgb(16, 16, 137);
 }
 
-.textbg {
+.upcoming-textbg {
     background: rgb(199, 196, 196, .58);
     padding: 0.1rem;
 }
 
-.header {
-    text-align: center;
-    color: rgb(220, 211, 211);
-}
-
-.text {
+.upcoming-text {
     font-size: 1.5em;
     color: black;
 }
