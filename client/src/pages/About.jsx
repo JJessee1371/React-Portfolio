@@ -1,10 +1,7 @@
 import React, { useState, useEffect } from 'react';
 //Portrait import
 import portrait from '../images/me.jpg';
-//Resume import
 import resume from '../certificates/Resume.pdf';
-// Certs imports
-//Create separate file? Set all in object array and map over for result, shorten syntax
 import fullstack from '../certificates/bootcamp_cert.pdf';
 import html from '../certificates/HTML-essential-training.pdf';
 import css from '../certificates/CSS-essential-training.pdf';
@@ -25,7 +22,6 @@ function About() {
     const [effect2, setEffect2] = useState(stationary);
     const [effect3, setEffect3] = useState(stationary);
 
-    //Timed animation for homepage headers
     useEffect(() => {
         setEffect1(animated);
         setTimeout(() => {
@@ -39,19 +35,15 @@ function About() {
     return (
         <div>
             <main className="container">
-                {/* Biocontainer component */}
                 <div className="row abt-bio abt-row1">
-                    {/* About header component */}
                     <header className="abt-header">
                         <p id="animate1" className={effect1}>Passionate full stack developer.</p>
                         <p id="animate2" className={effect2}>Dedicated forward thinker.</p>
                         <p id="animate3" className={effect3}>Enthusiastic collaborator.</p>
                     </header>
-                    {/* About image component */}
                     <div className="col s12 m6 l6 xl6">
                         <img className="abt-img responsive-img" src={portrait} alt="Headshot of Jon in the Marine Corps dress blue uniform."></img>
                     </div>
-                    {/* Bio component */}
                     <div className="col s12 m6 l6 xl6 container">
                         <p className="abt-bio-txt">
                         Jon Jessee is a Jacksonville, NC based full stack web developer with a fervor for continuous learning and application of that knowledge to finding innovative solutions to problems. He 
@@ -63,7 +55,6 @@ function About() {
                         <p className="abt-bio-txt">View my <a href={resume} target="_blank" rel="noreferrer" className="abt-resume">resume</a></p>
                     </div>
                 </div>
-                {/* Awards Component */}
                 <div className="row abt-row2">
                     <div className="col s12 m12 l12 xl12">
                         <h3 className="abt-awards-title">Honors & Awards</h3>
@@ -78,9 +69,7 @@ function About() {
                         </ul>
                     </div>
                 </div>
-                {/* Skill container component */}
                 <div className="row abt-row3">
-                    {/* Skills component */}
                     <div className="col s12 m6 l6 xl6">
                         <h3 className="abt-skills-title">Skills</h3>
                         <div className="row">
@@ -112,7 +101,6 @@ function About() {
                             </table>
                         </div>
                     </div>
-                    {/* Cert component */}
                     <div className="col s12 m6 l6 xl6">
                         <h3 className="abt-skills-title">Education/Certificates</h3>
                         <ul id="abt-certs">

@@ -1,4 +1,4 @@
-nav {
+footer#footer.page-footer {
     background-color: #a13b44;
 }
 
@@ -16,4 +16,5 @@ nav {
     display: flex;
     justify-content: space-around;
     color: black;
+    background-color: #a13b44;
 }

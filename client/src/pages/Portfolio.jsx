@@ -29,8 +29,9 @@ function Portfolio() {
                     )
                 })}
             </main>
+
             <hr></hr>
-            {/* Upcoming component */}
+
             <h2 className="upcoming-header">Upcoming Projects</h2>
             <div className="proj1-wrap">
                 <h3 className="proj1-title">Semper Study</h3>

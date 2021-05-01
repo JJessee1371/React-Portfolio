@@ -47,8 +47,8 @@
     color: rgb(16, 16, 137);
 }
 
-.upcoming-textbg {
-    background: rgb(199, 196, 196, .58);
+.upcoming-txtbg {
+    background-color: rgb(199, 196, 196, .58);
     padding: 0.1rem;
 }
 

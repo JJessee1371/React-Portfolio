@@ -20,16 +20,19 @@
 #animate1 {
     text-align: left;
     font-size: 1.8em;
+    font-weight: bold;
 }
 
 #animate2 {
     text-align: center;
     font-size: 1.8em;
+    font-weight: bold;
 }
 
 #animate3 {
     text-align: right;
     font-size: 1.8em;
+    font-weight: bold;
 }
 
 .animated {

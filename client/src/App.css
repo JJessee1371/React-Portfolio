@@ -3,18 +3,6 @@ body {
     box-sizing: border-box;
 }
 
-.nav {
-    background-color: #a13b44;
-}
-
-.header-main {
-    padding-top: 0;
-}
-
-.header-text {
-    font-weight: bold;
-}
-
 main {
     flex: 1 0 auto;
 }

@@ -8,10 +8,9 @@ import Footer from './Components/Footer/Footer';
 import './App.css';
 
 
-class App extends React.Component {
-  render() {
-    return (
-      <>
+function App() {
+  return (
+    <>
       <Router>
         <div>
           <GlobalNavbar/>
@@ -21,9 +20,8 @@ class App extends React.Component {
           <Footer/>
         </div>
       </Router>
-      </>
-    );
-  };
+    </>
+  );
 };
 
 export default App;
