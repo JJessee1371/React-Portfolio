@@ -3,7 +3,6 @@ import { Navbar, NavItem, Icon, SideNavItem } from 'react-materialize';
 import sidenavBg from '../../images/sidenav_bg.jpg';
 import logo from '../../images/logo.png';
 import resume from '../../certificates/Resume.pdf';
-import 'materialize-css/dist/css/materialize.min.css';
 import './GlobalNavbar.css';
 
 class GlobalNavbar extends React.Component {

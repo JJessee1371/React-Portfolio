@@ -1,0 +1,201 @@
+.abt-bio {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-image: linear-gradient(to bottom right, #d2bf55, #eddd82, #f0e49d);
+    color: black;
+}
+
+.abt-row1 {
+    border: solid black 3px;
+    background-color: #d2bf55;
+}
+
+.abt-header {
+    padding: 10px;
+    font-family: 'Neucha', cursive;
+    letter-spacing: 0.3em;
+}
+
+#animate1 {
+    text-align: left;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+#animate2 {
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+#animate3 {
+    text-align: right;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s; 
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both;
+}
+
+.bounce { 
+    -webkit-animation-name: bounce; 
+    animation-name: bounce; 
+ }
+
+.abt-img {
+    box-shadow: 5px 7px 8px 10px rgb(31, 30, 30);
+}
+
+.abt-bio-txt {
+    margin-top: 0;
+    margin-left: 10px;
+    font-size: 1.15em;
+    text-align: justify;
+}
+
+.abt-resume {
+    color: #923840;
+}
+  
+.abt-resume:hover {
+    text-decoration: underline;
+    color: rgb(136, 10, 136);
+}
+
+.abt-row2 {
+    margin: 20px auto;
+    padding: 20px;
+    background-image: url('../images/awards.bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid black 3px;
+}
+
+.abt-awards-title {
+    text-align: center;
+    color: rgb(220, 211, 211);
+}
+
+#abt-awards > li {
+    list-style-type: none;
+    font-size: 16px;
+    text-align: center;
+    color: rgb(220, 211, 211);
+}
+
+.abt-row3 {
+    margin: 20px auto;
+    padding: 20px;
+    background-image: url('../images/skills.bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.abt-skills-title {
+    text-align: center;
+    color: rgb(220, 211, 211);
+    font-size: 1.8rem;
+}
+
+.abt-skill-txt {
+    color: rgb(220, 211, 211);
+    text-align: center;
+    padding: 0;
+}
+
+.abt-icon {
+    text-align: center;
+}
+
+.fa-html5 {
+    color: orange;
+}
+
+.fa-css3-alt {
+    color: rgb(35, 35, 248);
+}
+
+.fa-js-square {
+    color: rgb(182, 182, 85);
+}
+
+.fa-node-js {
+    color: green;
+}
+
+.sql {
+    color: rgb(58, 147, 177);
+}
+
+.mongo {
+    color: green;
+}
+
+.fa-react {
+    color: rgb(58, 147, 177);
+}
+
+.fa-microsoft {
+    color: rgb(220, 211, 211);
+}
+
+/*May need to redefine to apply to each individual item */
+.abt-certs > a {
+    color: #798fc9;
+}
+
+.abt-certs > a:hover {
+    text-decoration: underline;
+    color: rgb(169, 18, 169);
+}
+
+
+ @-webkit-keyframes bounce { 
+    0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);} 
+    40% {-webkit-transform: translateY(-30px);} 
+    60% {-webkit-transform: translateY(-15px);} 
+ } 
+ 
+ @keyframes bounce { 
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
+    40% {transform: translateY(-30px);} 
+    60% {transform: translateY(-15px);} 
+ }
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+    #animate1, #animate2, #animate3 {
+        text-align: center;
+        font-size: 0.75em;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+    .abt-bio-text {
+        font-size: 1em;
+        line-height: 1.6;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 426px) {
+    .abt-bio-text {
+        font-size: 1em;
+        margin-top: 15px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+    .abt-indiv-award {
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 375px) {
+    .abt-skill-txt {
+        font-size: 0.75rem;
+    }
+}
