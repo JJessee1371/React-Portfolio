@@ -1,0 +1,45 @@
+.cont-header {
+    background-color: #d2bf55;
+    font-family: 'Neucha', cursive;
+    font-size: 1.6em;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.3em;
+    margin: 20px 0;
+    padding: 10px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cont-main {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cont-linkedin, #cont-github {
+    display: inline;
+    color: black;
+}
+
+#cont-linkedin:hover, #cont-github:hover {
+    opacity: 0.75;
+}
+
+.cont-form {
+    background-image: url('../images/message_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.cont-form-header {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.cont-form-label {
+    color: black !important;
+}
