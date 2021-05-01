@@ -28,7 +28,7 @@
 }
 
 .cont-form {
-    background-image: url('../../images/message_bg.jpg');
+    background-image: url('../images/message_bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     padding: 20px;

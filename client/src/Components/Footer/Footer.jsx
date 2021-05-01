@@ -1,5 +1,4 @@
 import React from 'react';
-import 'materialize-css';
 import './Footer.css';
 
 function Footer() {

@@ -1,6 +1,7 @@
 import React from 'react';
 import Card from '../Components/Card/Card';
 import projectsArr from '../Projects';
+import './Portfolio.css';
 
 function Portfolio() {
     return (
@@ -8,22 +9,24 @@ function Portfolio() {
             <main>
                 <header className="portfolio-header">My Projects</header>
                 {projectsArr.map(row => {
-                    <Card 
-                        key1={row.project1.id}
-                        src1={row.project1.src}
-                        alt1={row.project1.alt}
-                        title1={row.project1.title}
-                        desc1={row.project1.desc}
-                        deployed1={row.project1.deployed}
-                        github1={row.project1.github}
-                        key2={row.project2.id}
-                        src2={row.project2.src}
-                        alt2={row.project2.alt}
-                        title2={row.project2.title}
-                        desc2={row.project2.desc}
-                        deployed2={row.project2.deployed}
-                        github2={row.project2.github}
-                    />
+                    return(
+                        <Card 
+                            key1={row.project1.id}
+                            src1={row.project1.src}
+                            alt1={row.project1.alt}
+                            title1={row.project1.title}
+                            desc1={row.project1.desc}
+                            deployed1={row.project1.deployed}
+                            github1={row.project1.github}
+                            key2={row.project2.id}
+                            src2={row.project2.src}
+                            alt2={row.project2.alt}
+                            title2={row.project2.title}
+                            desc2={row.project2.desc}
+                            deployed2={row.project2.deployed}
+                            github2={row.project2.github}
+                        />
+                    )
                 })}
             </main>
             <hr></hr>

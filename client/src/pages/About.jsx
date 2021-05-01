@@ -16,6 +16,7 @@ import reacthooks from '../certificates/react-hooks.pdf';
 import reactapis from '../certificates/react-apis.pdf';
 import excel from '../certificates/excel-2019-essential-training.pdf';
 import word from '../certificates/word-2019-essential-training.pdf';
+import './About.css';
 
 function About() {
     const stationary = 'header-text animated';
