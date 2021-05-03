@@ -1,0 +1,8 @@
+.abt-cert {
+    color: #798fc9;
+}
+
+.abt-cert:hover {
+    text-decoration: underline;
+    color: rgb(169, 18, 169);
+}

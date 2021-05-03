@@ -1,6 +1,6 @@
 import React from 'react';
 import Card from '../Components/Card/Card';
-import projectsArr from '../Projects';
+import projectsArr from '../data/projects';
 import './Portfolio.css';
 
 function Portfolio() {

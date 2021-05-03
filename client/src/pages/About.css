@@ -145,16 +145,6 @@
 }
 
 /*May need to redefine to apply to each individual item */
-.abt-certs > a {
-    color: #798fc9;
-}
-
-.abt-certs > a:hover {
-    text-decoration: underline;
-    color: rgb(169, 18, 169);
-}
-
-
  @-webkit-keyframes bounce { 
     0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);} 
     40% {-webkit-transform: translateY(-30px);} 

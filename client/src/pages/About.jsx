@@ -1,18 +1,8 @@
 import React, { useState, useEffect } from 'react';
-//Portrait import
 import portrait from '../images/me.jpg';
-import resume from '../certificates/Resume.pdf';
-import fullstack from '../certificates/bootcamp_cert.pdf';
-import html from '../certificates/HTML-essential-training.pdf';
-import css from '../certificates/CSS-essential-training.pdf';
-import node from '../certificates/nodejs-essential-training.pdf';
-import mysql from '../certificates/mysql-essential-training.pdf';
-import mongo from '../certificates/MongoDB.pdf';
-import reactjs from '../certificates/React-essential-training.pdf';
-import reacthooks from '../certificates/react-hooks.pdf';
-import reactapis from '../certificates/react-apis.pdf';
-import excel from '../certificates/excel-2019-essential-training.pdf';
-import word from '../certificates/word-2019-essential-training.pdf';
+import resume from '../certificates/Jon_Jessee_Resume.pdf';
+import CertList from '../Components/CertList/CertList';
+import certsArr from '../data/certificates';
 import './About.css';
 
 function About() {
@@ -74,47 +64,47 @@ function About() {
                         <h3 className="abt-skills-title">Skills</h3>
                         <div className="row">
                             <table>
-                                <tr>
-                                    <td className="abt-icon"><i className="fab fa-html5 fa-2x"></i></td>
-                                    <td className="abt-icon"><i className="fab fa-css3-alt fa-2x"></i></td>
-                                    <td className="abt-icon"><i className="fab fa-node-js fa-2x"></i></td>
-                                    <td className="abt-icon"><i className="fab fa-js-square fa-2x"></i></td>
-                                </tr>
-                                <tr>
-                                    <td className="abt-skill-txt">HTML</td>
-                                    <td className="abt-skill-txt">CSS</td>
-                                    <td className="abt-skill-txt">Node.js</td>
-                                    <td className="abt-skill-txt">JavaScript/jQuery</td>
-                                </tr>
-                                <tr>
-                                    <td className="abt-icon"><i className="fas fa-database sql fa-2x"></i></td>
-                                    <td className="abt-icon"><i className="fas fa-database mongo fa-2x"></i></td>
-                                    <td className="abt-icon"><i className="fab fa-react fa-2x"></i></td>
-                                    <td className="abt-icon"><i className="fab fa-microsoft fa-2x"></i></td>
-                                </tr>
-                                <tr>
-                                    <td className="abt-skill-txt">MySQL</td>
-                                    <td className="abt-skill-txt">MongoDB</td>
-                                    <td className="abt-skill-txt">React.js</td>
-                                    <td className="abt-skill-txt">Microsoft Office</td>
-                                </tr>
+                                <tbody>
+                                    <tr>
+                                        <td className="abt-icon"><i className="fab fa-html5 fa-2x"></i></td>
+                                        <td className="abt-icon"><i className="fab fa-css3-alt fa-2x"></i></td>
+                                        <td className="abt-icon"><i className="fab fa-node-js fa-2x"></i></td>
+                                        <td className="abt-icon"><i className="fab fa-js-square fa-2x"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td className="abt-skill-txt">HTML</td>
+                                        <td className="abt-skill-txt">CSS</td>
+                                        <td className="abt-skill-txt">Node.js</td>
+                                        <td className="abt-skill-txt">JavaScript/jQuery</td>
+                                    </tr>
+                                    <tr>
+                                        <td className="abt-icon"><i className="fas fa-database sql fa-2x"></i></td>
+                                        <td className="abt-icon"><i className="fas fa-database mongo fa-2x"></i></td>
+                                        <td className="abt-icon"><i className="fab fa-react fa-2x"></i></td>
+                                        <td className="abt-icon"><i className="fab fa-microsoft fa-2x"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td className="abt-skill-txt">MySQL</td>
+                                        <td className="abt-skill-txt">MongoDB</td>
+                                        <td className="abt-skill-txt">React.js</td>
+                                        <td className="abt-skill-txt">Microsoft Office</td>
+                                    </tr>
+                                </tbody>
                             </table>
                         </div>
                     </div>
                     <div className="col s12 m6 l6 xl6">
                         <h3 className="abt-skills-title">Education/Certificates</h3>
-                        <ul id="abt-certs">
-                            <li><a href={fullstack} target="_blank" rel="noreferrer">Full stack certificate - University of Utah</a></li>
-                            <li><a href={html} target="_blank" rel="noreferrer">HTML5 - LinkedIn</a></li>
-                            <li><a href={css} target="_blank" rel="noreferrer">CSS - LinkedIn</a></li>
-                            <li><a href={node} target="_blank" rel="noreferrer">Node.js - LinkedIn</a></li>
-                            <li><a href={mysql} target="_blank" rel="noreferrer">MySQL - LinkedIn</a></li>
-                            <li><a href={mongo} target="_blank" rel="noreferrer">MongoDB - LinkedIn</a></li>
-                            <li><a href={reactjs} target="_blank" rel="noreferrer">React - LinkedIn</a></li>
-                            <li><a href={reacthooks} target="_blank" rel="noreferrer">React Hooks - LinkedIn</a></li>
-                            <li><a href={reactapis} target="_blank" rel="noreferrer">React APIs - LinkedIn</a></li>
-                            <li><a href={excel} target="_blank" rel="noreferrer">Microsoft Excel 2019 - LinkedIn</a></li>
-                            <li><a href={word} target="_blank" rel="noreferrer">Microsoft Word 2019 - LinkedIn</a></li>
+                        <ul>
+                            {certsArr.map(item => {
+                                return(
+                                    <CertList
+                                        key={item.href}
+                                        name={item.name}
+                                        href={item.href}
+                                    />
+                                )
+                            })}
                         </ul>
                     </div>
                 </div>

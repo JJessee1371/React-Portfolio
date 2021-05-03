@@ -1,9 +1,9 @@
-import rememberThem from './images/Remember-them.png';
-import fitness from './images/fitness-tracker.PNG';
-import budget from './images/budget.PNG';
-import busTracker from './images/employee-tracker.PNG';
-import weatherDash from './images/weatherdash_pic.PNG';
-import burger from './images/burger.PNG';
+import rememberThem from '../images/Remember-them.png';
+import fitness from '../images/fitness-tracker.PNG';
+import budget from '../images/budget.PNG';
+import busTracker from '../images/employee-tracker.PNG';
+import weatherDash from '../images/weatherdash_pic.PNG';
+import burger from '../images/burger.PNG';
 
 //Project info to be passed as props to Card component for portfolio page
 const projectsArr = [
