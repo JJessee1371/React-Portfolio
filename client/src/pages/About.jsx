@@ -36,26 +36,26 @@ function About() {
                     </div>
                     <div className="col s12 m6 l6 xl6 container">
                         <p className="abt-bio-txt">
-                        Jon Jessee is a Jacksonville, NC based full stack web developer with a fervor for continuous learning and application of that knowledge to finding innovative solutions to problems. He 
-                        entered the web development field in search of a new challenge and is wholly dedicated to using his skills to build tools that will magnify the passion and vision of their users. With
-                        a background in diverse work environments including customer service, construction, tutoring, and the military his experience and skillset offer unique perspective and unmatched flexibility. 
-                        Whether it was streamlining work processes in the office, going the extra mile to complete a project, or leading Marines in a training maneuver, he has repeatedly demonstrated an ability to 
-                        flourish in fast paced environments, serve as an irreplaceable member of a team, and maintain an indomitable spirit. 
+                        Jon Jessee is a Jacksonville, NC based Marine Corps veteran, full stack web developer, and cyber security student with a passion for lifelong learning and improvement. With over 6 and a half years of experience
+                        in customer facing roles, he has developed top notch communication skills and has been frequently recognized by his peers as a highly adaptable and organized leader. Having been certified
+                        as a full stack web developer by the University of Utah, Jon plans to leverage that knowledge along with his diverse work experience in learning to become a cyber security professional.
+                        Being an individual who loves to serve and protect others and working toward certifications in A+, Network+, Security+, Certified Ethical Hacker, and Certified Network Defender he aims
+                        to become a Security Operations Center Specialist. Whether it was streamlining work processes in the office, going the extra mile to complete a project, or leading Marines in a training 
+                        maneuver, he has repeatedly demonstrated an ability to flourish in fast paced environments, serve as an irreplaceable member of a team, and maintain an indomitable spirit. These are the 
+                        skills and attitudes he will bring with him into every future endeavor. 
                         </p>
-                        <p className="abt-bio-txt">View my <a href={resume} target="_blank" rel="noreferrer" className="abt-resume">resume</a></p>
+                        <p className="abt-bio-txt">View Jon's <a href={resume} target="_blank" rel="noreferrer" className="abt-resume">resume.</a></p>
                     </div>
                 </div>
                 <div className="row abt-row2">
                     <div className="col s12 m12 l12 xl12">
                         <h3 className="abt-awards-title">Honors & Awards</h3>
                         <ul id="abt-awards">
-                            <li className="abt-indiv-award">AP Scholar with Distinction - 2014 - Advanced Placement Board</li>
-                            <li className="abt-indiv-award">Eagle Scout Award - 2014 - Boy Scouts of America</li>
-                            <li className="abt-indiv-award">National Defense Ribbon - 2018 - United States Marine Corps</li>
-                            <li className="abt-indiv-award">Global War on Terrorism Ribbon - 2019 - United States Marine Corps</li>
-                            <li className="abt-indiv-award">Meritorious Mast Certificate - 2019 - Marine Corps Engineer School</li>
-                            <li className="abt-indiv-award">Academic Honor Graduate - 2019 - Marine Corps Association Foundation</li>
                             <li className="abt-indiv-award">Navy Achievement Medal - 2020 - United States Marine Corps</li>
+                            <li className="abt-indiv-award">Academic Honor Graduate - 2019 - Marine Corps Association Foundation</li>
+                            <li className="abt-indiv-award">Meritorious Mast Certificate - 2019 - Marine Corps Engineer School</li>
+                            <li className="abt-indiv-award">Eagle Scout Award - 2014 - Boy Scouts of America</li>
+                            <li className="abt-indiv-award">AP Scholar with Distinction - 2014 - Advanced Placement Board</li>
                         </ul>
                     </div>
                 </div>
